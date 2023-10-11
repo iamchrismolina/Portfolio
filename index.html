@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -7,24 +7,65 @@
     <title>Chris Molina</title>
   </head>
   <body>
-    <header>
-      <div>
-        <img src="" alt="Portfolio Brand Logo" />
+    <header class="header">
+      <div class="header__brand">
+        <span class="header__logo">DKLogo</span>
+        <!-- <img src="" alt="Portfolio Brand Logo" /> -->
       </div>
-      <nav>
-        <ul>
-          <li>Home</li>
-          <li>About Me</li>
-          <li>Projects</li>
+      <nav class="header__nav">
+        <ul class="header__links">
+          <li><a class="header__link" href="#">Home</a></li>
+          <li><a class="header__link" href="#">About Me</a></li>
+          <li><a class="header__link" href="#">Projects</a></li>
         </ul>
       </nav>
-      <div>
-        <button>Resume</button>
-        <button>Hire Me</button>
+      <div class="header__menu">
+        <ul class="header__menu-links">
+          <li><a class="header__link" href="" target="_blank">Resume</a></li>
+          <li><a class="header__link" href="" target="_blank">Hire Me</a></li>
+        </ul>
+        <span class="header__hamburger"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+        </span>
       </div>
     </header>
-    
-    <section>Hero</section>
+    <section class="hero">
+      <aside class="hero__socials">
+        <nav>
+          <ul>
+            <li>Github</li>
+            <li>LinkedIn</li>
+            <li>Twitter</li>
+            <li>Facebook</li>
+          </ul>
+        </nav>
+        <div>line</div>
+      </aside>
+      <div class="hero__intro">Hi, I'm Chirs Molina</div>
+      <div class="hero__description">
+        I create and develop exceptional web applications and solutions
+      </div>
+      <img clas="mypicture" src="" alt="" />
+      <aside>
+        <div class="hero__mail">
+          <p>chrisdicksonmolina.gmail.com</p>
+        </div>
+        <div>line</div>
+      </aside>
+    </section>
     <main>
       <section>About Me</section>
       <section>My Skills</section>
