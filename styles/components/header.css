@@ -44,7 +44,8 @@
 .header__menu-links {
   display: none;
   justify-content: space-between;
-  gap: clamp(2rem, 3vw, 4rem);
+  gap: clamp(1.5rem, 1vw, 4rem);
+  /* gap: clamp(1rem, 1.5vw, 4rem); */
   text-align: center;
   list-style-type: none;
   padding: 0;
@@ -61,7 +62,7 @@
 
 @media (min-width: 1200px) {
   .header__menu {
-    flex: 4;
+    flex: 8;
   }
 
   .header__menu-links {

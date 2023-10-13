@@ -167,9 +167,13 @@
 }
 
 .hero__cta-btn {
-  border: 3px solid #59283b;
+  /* border: 3px solid #59283b;
   border-radius: 10px;
-  padding: 0.2rem 0.4rem;
+  padding: 0.2rem 0.4rem; */
+}
+
+.hero__link {
+  text-decoration: none;
 }
 
 .hero__image {

@@ -1,0 +1,8 @@
+.btn {
+  --padding-vertical: clamp(0.2rem, 0.2rem + 0.4vw, 0.7rem);
+  --padding-sides: clamp(0.4rem, 0.4rem + 2vw, 2rem);
+
+  border: 2px solid #59283b;
+  border-radius: 5px;
+  padding: var(--padding-vertical) var(--padding-sides);
+}

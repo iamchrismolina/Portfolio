@@ -7,7 +7,7 @@
     <title>Chris Molina</title>
   </head>
   <body>
-    <header class="header--util">
+    <header class="header">
       <div class="header__brand">
         <span class="header__logo">DKLogo</span>
         <!-- <img src="" alt="Portfolio Brand Logo" /> -->
@@ -21,8 +21,12 @@
       </nav>
       <div class="header__menu">
         <ul class="header__menu-links">
-          <li><a class="header__link" href="" target="_blank">Resume</a></li>
-          <li><a class="header__link" href="" target="_blank">Hire Me</a></li>
+          <li>
+            <a class="header__link btn" href="" target="_blank">Resume</a>
+          </li>
+          <li>
+            <a class="header__link btn" href="" target="_blank">Hire Me</a>
+          </li>
         </ul>
         <span class="header__hamburger"
           ><svg
@@ -136,10 +140,10 @@
 
           <div class="hero__cta">
             <ul class="hero__cta-links">
-              <li class="hero__cta-btn">
+              <li class="hero__cta-btn btn">
                 <a class="hero__link" href="#">View projects</a>
               </li>
-              <li class="hero__cta-btn">
+              <li class="hero__cta-btn btn">
                 <a class="hero__link" href="#">Let's work</a>
               </li>
             </ul>
@@ -589,7 +593,35 @@
           </div>
         </section>
 
-        <section>My Projects</section>
+        <section class="projects">
+          <div class="projects__header header--util">
+            <span class="header--title">My Projects</span>
+            <div class="header--line"></div>
+          </div>
+          <div class="projects__project">
+            <div class="projects__photo">
+              <img src="#" alt="" />
+              <span>Project Photo</span>
+            </div>
+            <div class="projects__info">
+              <h3 class="projects__title">Runtime Trains</h3>
+              <div class="projects__desc-container">
+                <p class="projects__desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Accusantium dolorem ea, perspiciatis ullam omnis sit pariatur
+                  ratione ducimus? Quaerat ea consequuntur hic neque. Nemo
+                  ducimus obcaecati unde ratione atque! Ad?
+                </p>
+              </div>
+              <div class="projects__btns-container">
+                <ul class="projects__btns">
+                  <li class="btn">Live Demo</li>
+                  <li class="btn">Source Code</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
       <div class="main__gap gap--2"></div>
     </main>
