@@ -1,9 +1,9 @@
-import "./src/header.css";
-import "./src/components/heading.css";
-import "./src/hero.css";
-import "./src/about.css";
-import "./src/css/skills.css";
-import './style.css';
-import "./src/modern-normalize.css";
+import "./styles/components/header.css";
+import "./styles/utils/heading.css";
+import "./styles/components/hero.css";
+import "./styles/components/about.css";
+import "./styles/components/skills.css";
+import './styles/style.css';
+import "./styles/modern-normalize.css";
 
 
