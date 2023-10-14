@@ -13,7 +13,9 @@
 }
 
 .projects__photo {
+  min-width: 16.5rem;
   width: 100%;
+  max-width: 32.5rem;
   height: 50%;
   background-color: yellow;
   display: flex;
@@ -28,6 +30,15 @@
   align-items: center;
   justify-content: space-around;
   height: 50%;
+}
+
+.projects__title {
+  font-size: 1.5rem;
+}
+
+.projects__desc {
+  max-width: 60ch;
+  font-size: clamp(1rem, 1.3vw, 1.3rem);
 }
 
 .projects__desc-container {
@@ -76,6 +87,7 @@
 
   .projects__desc {
     height: 100%;
+    max-width: none;
     text-align: left;
     padding: 1rem;
   }
@@ -88,5 +100,11 @@
 @media (min-width: 1400px) {
   .projects__project {
     gap: clamp(1rem, 8vw, 10%);
+  }
+}
+
+@media screen and (orientation: landscape) {
+  .projects__project {
+    overflow-y: scroll;
   }
 }

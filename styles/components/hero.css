@@ -74,11 +74,6 @@
   color: #fb4855;
 }
 
-/* .hero__header-name::before {
-  color: #ccd6f6;
-  content: "Hi, I'm ";
-} */
-
 .hero__desc {
   flex: 1;
   display: flex;
@@ -93,22 +88,13 @@
 .hero__desc-line {
   text-align: center;
   padding: 0 1rem;
+  max-width: 60ch;
 }
 
 .hero__desc-highlight {
   font-size: clamp(1.6rem, 3vw, 4rem);
   color: #f94855;
 }
-
-/* .desc-highlight--create::before {
-  color: #8791af;
-  content: "I ";
-}
-
-.desc-highlight--create::after {
-  color: #8791af;
-  content: " and ";
-} */
 
 .hero__desc::before {
   color: #9b3546;
