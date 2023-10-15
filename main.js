@@ -8,7 +8,7 @@ import "./styles/components/footer.css";
 import "./styles/utils/container.css";
 import "./styles/utils/heading.css";
 import "./styles/utils/button.css";
-import './styles/style.css';
+import "./styles/style.css";
 import "./styles/modern-normalize.css";
 
-
+import "./src/components/projects.js";

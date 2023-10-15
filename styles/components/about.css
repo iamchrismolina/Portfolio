@@ -40,12 +40,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 .background__info {
   max-width: 60ch;
-  /* text-align: justify; */
+  color: var(--clr-slate600);
 }
 
 .background__photo {
@@ -58,7 +58,8 @@
 
 @media (min-width: 320px) {
   .background__info-container {
-    overflow-y: visible;
+    /* overflow-y: visible; */
+    overflow-y: auto;
   }
 }
 
@@ -79,12 +80,12 @@
 
 @media (max-width: 476px) {
   .background__info-container {
-    overflow-y: scroll;
+    overflow-y: auto;
   }
 }
 
 @media screen and (orientation: landscape) {
   .background__info-container {
-    overflow-y: scroll;
+    overflow-y: auto;
   }
 }

@@ -6,36 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chris Molina</title>
   </head>
-  <body>
+  <body id="home">
     <header class="header">
       <div class="header__brand">
-        <span class="header__logo">DKLogo</span>
+        <span class="header__logo">DK</span>
         <!-- <img src="" alt="Portfolio Brand Logo" /> -->
       </div>
       <nav class="header__nav">
         <ul class="header__links">
-          <li><a class="header__link" href="#">Home</a></li>
-          <li><a class="header__link" href="#">About Me</a></li>
-          <li><a class="header__link" href="#">Projects</a></li>
+          <!-- <li><a class="header__link" href="#home">Home</a></li> -->
+          <li><a class="header__link" href="#about-me">About</a></li>
+          <li><a class="header__link" href="#projects">Projects</a></li>
+          <li><a class="header__link" href="#contact">Contact</a></li>
         </ul>
       </nav>
       <div class="header__menu">
         <ul class="header__menu-links">
           <li>
-            <a class="header__link btn" href="" target="_blank">Resume</a>
+            <a class="header__link menu--links btn" href="" target="_blank"
+              >Resume</a
+            >
           </li>
           <li>
-            <a class="header__link btn" href="" target="_blank">Hire Me</a>
+            <a class="header__link menu--links btn" href="" target="_blank"
+              >Hire Me</a
+            >
           </li>
         </ul>
-        <span class="header__hamburger"
-          ><svg
+        <span class="header__hamburger">
+          <!-- class="w-6 h-6" -->
+          <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="w-6 h-6"
+            class="header__hamburger-img"
           >
             <path
               stroke-linecap="round"
@@ -52,10 +58,16 @@
         <nav class="hero__nav">
           <ul class="hero__links">
             <li class="hero__item">
-              <a href="#">
+              <a
+                href="https://github.com/iamchrismolina"
+                target="_blank"
+                title="GitHub"
+              >
+                <!-- Github -->
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
+                  width="2em"
                   height="2em"
+                  xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 496 512"
                 >
                   <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
@@ -66,44 +78,102 @@
               </a>
             </li>
             <li class="hero__item">
-              <a href="#">
+              <a
+                href="www.linkedin.com/in/chris-dickson-molina-750164274"
+                target="_blank"
+                title="LinkedIn"
+              >
+                <!-- LinkedIn -->
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
+                  width="2em"
                   height="2em"
-                  viewBox="0 0 448 512"
+                  viewBox="0 0 16 16"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
                 >
                   <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
                   <path
-                    d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+                    fill="#0A66C2"
+                    d="M12.225 12.225h-1.778V9.44c0-.664-.012-1.519-.925-1.519-.926 0-1.068.724-1.068 1.47v2.834H6.676V6.498h1.707v.783h.024c.348-.594.996-.95 1.684-.925 1.802 0 2.135 1.185 2.135 2.728l-.001 3.14zM4.67 5.715a1.037 1.037 0 01-1.032-1.031c0-.566.466-1.032 1.032-1.032.566 0 1.031.466 1.032 1.032 0 .566-.466 1.032-1.032 1.032zm.889 6.51h-1.78V6.498h1.78v5.727zM13.11 2H2.885A.88.88 0 002 2.866v10.268a.88.88 0 00.885.866h10.226a.882.882 0 00.889-.866V2.865a.88.88 0 00-.889-.864z"
                   />
                 </svg>
               </a>
             </li>
             <li class="hero__item">
-              <a href="#">
+              <a
+                href="https://leetcode.com/iamchrismolina/"
+                target="_blank"
+                title="LeetCode"
+              >
+                <!-- LeetCode -->
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
+                  fill="#ffa116"
+                  width="2em"
                   height="2em"
-                  viewBox="0 0 448 512"
+                  viewBox="0 0 32 32"
+                  xmlns="http://www.w3.org/2000/svg"
+                  stroke="#ffa116"
                 >
-                  <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                  <path
-                    d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM351.3 199.3v0c0 86.7-66 186.6-186.6 186.6c-37.2 0-71.7-10.8-100.7-29.4c5.3 .6 10.4 .8 15.8 .8c30.7 0 58.9-10.4 81.4-28c-28.8-.6-53-19.5-61.3-45.5c10.1 1.5 19.2 1.5 29.6-1.2c-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3c-9-6-16.4-14.1-21.5-23.6s-7.8-20.2-7.7-31c0-12.2 3.2-23.4 8.9-33.1c32.3 39.8 80.8 65.8 135.2 68.6c-9.3-44.5 24-80.6 64-80.6c18.9 0 35.9 7.9 47.9 20.7c14.8-2.8 29-8.3 41.6-15.8c-4.9 15.2-15.2 28-28.8 36.1c13.2-1.4 26-5.1 37.8-10.2c-8.9 13.1-20.1 24.7-32.9 34c.2 2.8 .2 5.7 .2 8.5z"
+                  <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
                   />
+                  <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      d="M21.469 23.907l-3.595 3.473c-0.624 0.625-1.484 0.885-2.432 0.885s-1.807-0.26-2.432-0.885l-5.776-5.812c-0.62-0.625-0.937-1.537-0.937-2.485 0-0.952 0.317-1.812 0.937-2.432l5.76-5.844c0.62-0.619 1.5-0.859 2.448-0.859s1.808 0.26 2.432 0.885l3.595 3.473c0.687 0.688 1.823 0.663 2.536-0.052 0.708-0.713 0.735-1.848 0.047-2.536l-3.473-3.511c-0.901-0.891-2.032-1.505-3.261-1.787l3.287-3.333c0.688-0.687 0.667-1.823-0.047-2.536s-1.849-0.735-2.536-0.052l-13.469 13.469c-1.307 1.312-1.989 3.113-1.989 5.113 0 1.996 0.683 3.86 1.989 5.168l5.797 5.812c1.307 1.307 3.115 1.937 5.115 1.937 1.995 0 3.801-0.683 5.109-1.989l3.479-3.521c0.688-0.683 0.661-1.817-0.052-2.531s-1.849-0.74-2.531-0.052zM27.749 17.349h-13.531c-0.932 0-1.692 0.801-1.692 1.791 0 0.991 0.76 1.797 1.692 1.797h13.531c0.933 0 1.693-0.807 1.693-1.797 0-0.989-0.76-1.791-1.693-1.791z"
+                    />
+                  </g>
                 </svg>
               </a>
             </li>
             <li class="hero__item">
-              <a href="#">
+              <a
+                href="https://stackoverflow.com/users/21047116/chris-molina?tab=topactivity"
+                target="_blank"
+                title="stackoverflow"
+              >
+                <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
+                  width="2em"
                   height="2em"
-                  viewBox="0 0 512 512"
+                  viewBox="-5 0 48 48"
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
                 >
-                  <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                  <path
-                    d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"
-                  />
+                  <desc>Created with Sketch.</desc>
+                  <defs></defs>
+                  <g
+                    id="Icons"
+                    stroke="none"
+                    stroke-width="1"
+                    fill="none"
+                    fill-rule="evenodd"
+                  >
+                    <g
+                      id="Color-"
+                      transform="translate(-807.000000, -952.000000)"
+                    >
+                      <g
+                        id="stackoverflow"
+                        transform="translate(807.000000, 952.000000)"
+                      >
+                        <path
+                          d="M25.0860128,41.5922927 L5.97459514,41.6011499 L5.97294973,37.5538824 L25.0835447,37.5440929 L25.0860128,41.5922927 L25.0860128,41.5922927 Z M38,18.6708298 L34.7306912,0 L30.7087256,0.692025863 L33.9775643,19.3628557 L38,18.6708298 L38,18.6708298 Z M25.5455518,32.3547147 L6.51569942,30.616026 L6.14101644,34.6470941 L25.1712214,36.3841513 L25.5455518,32.3547147 L25.5455518,32.3547147 Z M26.8009984,27.0731519 L8.34598112,22.1539179 L7.28563299,26.0621508 L25.7419431,30.9819676 L26.8009984,27.0731519 L26.8009984,27.0731519 Z M29.2103463,22.4436411 L12.7494464,12.8164635 L10.6748215,16.3015328 L27.1365441,25.9292931 L29.2103463,22.4436411 L29.2103463,22.4436411 Z M33.2466504,19.6088756 L22.4792159,3.95170309 L19.106599,6.23184556 L29.8745036,21.8883189 L33.2466504,19.6088756 L33.2466504,19.6088756 Z"
+                          fill="#FF810F"
+                        ></path>
+                        <polygon
+                          id="stackoverflow-icon-path"
+                          fill="#BEBCBC"
+                          points="28.3315807 28.2784283 28.3315807 44.8243495 3.2648427 44.8243495 3.2648427 28.2784283 0 28.2784283 0 48 31.5799693 48 31.5799693 28.2784283"
+                        ></polygon>
+                      </g>
+                    </g>
+                  </g>
                 </svg>
               </a>
             </li>
@@ -134,7 +204,7 @@
               <span class="hero__desc-highlight desc-highlight--develop"
                 >develop</span
               >
-              exceptional web applications and solutions
+              exceptional web applications
             </div>
           </h3>
 
@@ -164,7 +234,7 @@
     <main class="main">
       <div class="main__gap gap--1"></div>
       <div class="main__content">
-        <section class="background">
+        <section class="background" id="about-me">
           <div class="background__header header--util">
             <span class="background__title header--title">About Me</span>
             <div class="background__line header--line"></div>
@@ -204,7 +274,7 @@
           </div>
         </section>
 
-        <section class="skills">
+        <section class="skills" id="skills">
           <div class="skills__header header--util">
             <span class="header--title">My Skills</span>
             <div class="header--line"></div>
@@ -598,58 +668,65 @@
             <span class="header--title">My Projects</span>
             <div class="header--line"></div>
           </div>
-          <div class="projects__project">
-            <div class="projects__photo">
-              <img src="#" alt="" />
-              <span>Project Photo</span>
+          <div class="projects__project-container" id="projects">
+            <div class="projects__project">
+              <div class="projects__photo">
+                <img
+                  class="projects__img"
+                  width="400"
+                  height="400"
+                  src="/public/images/tasksgenius/Todo List - Tasks.png"
+                  alt="TaskGenius Project being showcased"
+                />
+              </div>
+              <div class="projects__info">
+                <h3 class="projects__title">TaskGenius</h3>
+                <div class="projects__desc-container">
+                  <p class="projects__desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Accusantium dolorem ea, perspiciatis ullam omnis sit
+                    pariatur ratione ducimus? Quaerat ea consequuntur hic neque.
+                    Nemo ducimus obcaecati unde ratione atque! Ad?
+                  </p>
+                </div>
+                <div class="projects__btns-container">
+                  <ul class="projects__btns">
+                    <li class="btn">Live Demo</li>
+                    <li class="btn">Source Code</li>
+                  </ul>
+                </div>
+              </div>
             </div>
-            <div class="projects__info">
-              <h3 class="projects__title">Runtime Trains</h3>
-              <div class="projects__desc-container">
-                <p class="projects__desc">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Accusantium dolorem ea, perspiciatis ullam omnis sit pariatur
-                  ratione ducimus? Quaerat ea consequuntur hic neque. Nemo
-                  ducimus obcaecati unde ratione atque! Ad?
-                </p>
+          </div>
+        </section>
+
+        <section class="contact" id="contact">
+          <div class="contact__details">
+            <div class="contact__header header--util">
+              <span class="contact__title header--title">Contact</span>
+              <div class="contact__line header--line"></div>
+            </div>
+            <div class="contact__content">
+              <div class="contact__cta">
+                <div class="contact__cta-container">
+                  <p class="contact__cta-msg">
+                    Ready to connect or collaborate? Share your information, and
+                    I'll be in touch with you shortly.
+                  </p>
+                </div>
               </div>
-              <div class="projects__btns-container">
-                <ul class="projects__btns">
-                  <li class="btn">Live Demo</li>
-                  <li class="btn">Source Code</li>
-                </ul>
-              </div>
+              <a
+                class="contact__btn btn"
+                href="mailto:chrisdicksonmolina@gmail.com"
+                target="_blank"
+                >Send Message
+              </a>
             </div>
           </div>
         </section>
       </div>
       <div class="main__gap gap--2"></div>
     </main>
-
-    <section class="contact">
-      <div class="contact__details">
-        <div class="contact__header header--util">
-          <span class="contact__title header--title">Contact</span>
-          <div class="contact__line header--line"></div>
-        </div>
-        <div class="contact__content">
-          <div class="contact__cta">
-            <div class="contact__cta-container">
-              <p class="contact__cta-msg">
-                Ready to connect or collaborate? Share your information, and
-                I'll be in touch with you shortly.
-              </p>
-            </div>
-          </div>
-          <a
-            class="contact__btn btn"
-            href="mailto:chrisdicksonmolina@gmail.com"
-            target="_blank"
-            >Send Message
-          </a>
-        </div>
-      </div>
-    </section>
 
     <footer class="copyrights">
       <span class="copyrights__text">© Chris Molina 2023</span>

@@ -31,8 +31,9 @@
 
 .contact__cta-msg {
   text-align: center;
-  font-size: 1.3rem;
+  font-size: clamp(1.3rem, 2vw, 2rem);
   max-width: 60ch;
+  color: var(--clr-slate800);
 }
 
 .contact__btn {

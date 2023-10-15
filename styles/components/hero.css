@@ -48,11 +48,12 @@
   width: 100%;
   font-size: clamp(2.5rem, 5vw, 5rem);
   padding: 0 clamp(1rem, 2vw, 3rem);
+  white-space: nowrap;
 }
 
 .hero__header-container::before {
   text-align: start;
-  color: #b23949;
+  color: var(--clr-rose);
   /* font-size: clamp(1.2rem, 3vw, 1.5rem); */
   font-size: 1.2rem;
   content: "<h1>";
@@ -60,18 +61,20 @@
 
 .hero__header-container::after {
   text-align: start;
-  color: #b23949;
+  color: var(--clr-rose);
   /* font-size: clamp(1.2rem, 3vw, 1.5rem); */
   font-size: 1.2rem;
   content: "</h1>";
 }
 
 .hero__header-line {
-  color: #ccd6f6;
+  color: var(--clr-slate600);
+  text-align: start;
+  padding: 0 2rem;
 }
 
 .hero__header-name {
-  color: #fb4855;
+  color: var(--clr-rose);
 }
 
 .hero__desc {
@@ -82,28 +85,28 @@
   text-align: start;
   font-size: clamp(1.5rem, 3vw, 4rem);
   padding: 0 clamp(1rem, 2vw, 3rem);
-  color: #8791af;
+  color: var(--clr-slate400);
 }
 
 .hero__desc-line {
   text-align: center;
-  padding: 0 1rem;
+  padding: 0 2rem;
   max-width: 60ch;
 }
 
 .hero__desc-highlight {
   font-size: clamp(1.6rem, 3vw, 4rem);
-  color: #f94855;
+  color: var(--clr-indigo);
 }
 
 .hero__desc::before {
-  color: #9b3546;
+  color: var(--clr-rose);
   font-size: 1.1rem;
   content: "<h3>";
 }
 
 .hero__desc::after {
-  color: #9b3546;
+  color: var(--clr-rose);
   font-size: 1.1rem;
   content: "</h3>";
 }
@@ -149,7 +152,7 @@
   border-radius: 2px;
   height: 80%;
   width: 0.5rem;
-  background-color: var(--line-color);
+  background-color: var(--clr-rose);
 }
 
 .hero__cta-btn {
@@ -160,6 +163,7 @@
 
 .hero__link {
   text-decoration: none;
+  color: inherit;
 }
 
 .hero__image {
@@ -193,6 +197,7 @@
   justify-content: flex-start;
   align-items: center;
   rotate: 90deg;
+  color: var(--clr-slate800);
 }
 
 @media (min-width: 1400px) {
@@ -205,17 +210,17 @@
     flex-direction: row;
   }
 
-  .hero__desc {
+  /* .hero__desc {
     padding: 0 clamp(1rem, 1.5vw, 5rem);
-  }
+  } */
 
   .hero__desc-line {
     width: 100%;
   }
 
-  .hero__header-line {
-    /* font-size: 3rem; */
-  }
+  /* .hero__header-line {
+    font-size: 3rem;
+  } */
 
   .hero__container {
     flex: 3;
