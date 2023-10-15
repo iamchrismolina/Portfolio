@@ -1,6 +1,6 @@
 .skills {
   flex: 1;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .skills__container {
@@ -10,10 +10,10 @@
   gap: 5rem;
   width: 100%;
   height: 91.5%;
-  padding: 5rem;
+  padding: 5rem 0;
   grid-auto-flow: row;
   grid-auto-rows: minmax(7rem, 11rem);
-  overflow-y: auto;
+  /* overflow-y: auto; */
   justify-content: center;
 }
 
