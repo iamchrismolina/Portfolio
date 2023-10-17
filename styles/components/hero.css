@@ -231,3 +231,9 @@
     height: 70%;
   }
 }
+
+@media (max-width: 320px) {
+  .hero__header-container {
+    white-space: wrap;
+  }
+}

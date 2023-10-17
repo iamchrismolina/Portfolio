@@ -11,4 +11,5 @@ import "./styles/utils/button.css";
 import "./styles/style.css";
 import "./styles/modern-normalize.css";
 
+import "./src/components/skills/skills.js";
 import "./src/components/projects.js";

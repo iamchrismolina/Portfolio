@@ -82,7 +82,7 @@
     gap: clamp(1rem, 1rem + 1vw, 10%);
   }
 
-  .projects__project:nth-child(2n + 1) {
+  .projects__project:nth-child(2n + 2) {
     flex-direction: row-reverse;
   }
 
