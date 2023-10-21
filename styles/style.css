@@ -41,17 +41,20 @@ html {
   scroll-behavior: smooth;
 }
 
-* {
-  /* outline: 1px solid lightgray; */
-  /* color: white; */
-  line-height: 1.5;
-}
+/* * {
+  outline: 1px solid lightgray;
+} */
 
 * {
+  line-height: 1.5;
   font-family: "General Sans", sans-serif;
   /* background-color: var(--clr-dark);
   color: var(--clr-light); */
 }
+
+/* body {
+  background-color: var(--clr-light);
+} */
 
 /* Scrollbar */
 body::-webkit-scrollbar {

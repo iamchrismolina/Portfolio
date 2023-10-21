@@ -43,6 +43,10 @@
   /* overflow-y: auto; */
 }
 
+.background__info-line {
+  width: 100%;
+}
+
 .background__info {
   max-width: 60ch;
   color: var(--clr-slate600);
@@ -96,7 +100,7 @@
 
 @media (min-width: 475px) {
   .background {
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
   }
 
   .background__details {

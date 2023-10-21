@@ -14,42 +14,29 @@
       </div>
       <nav class="header__nav">
         <ul class="header__links">
-          <!-- <li><a class="header__link" href="#home">Home</a></li> -->
+          <li><a class="header__link" href="#home">Home</a></li>
           <li><a class="header__link" href="#about-me">About</a></li>
-          <li><a class="header__link" href="#projects">Projects</a></li>
-          <li><a class="header__link" href="#contact">Contact</a></li>
+          <li><a class="header__link" href="#skills-offset-link">Skills</a></li>
+          <!-- <li><a class="header__link" href="#contact">Contact</a></li> -->
         </ul>
       </nav>
       <div class="header__menu">
-        <ul class="header__menu-links">
+        <ul
+          class="header__menu-links"
+          id="headerMenu"
+        >
           <li>
-            <a class="header__link menu--links btn" href="" target="_blank"
+            <a class="header__link menu--links" href="" target="_blank"
               >Resume</a
             >
           </li>
           <li>
-            <a class="header__link menu--links btn" href="" target="_blank"
-              >Hire Me</a
-            >
+            <a class="header__link menu--links" href="#contact">Hire Me</a>
           </li>
         </ul>
-        <span class="header__hamburger">
-          <!-- class="w-6 h-6" -->
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="header__hamburger-img"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-            />
-          </svg>
-        </span>
+        <div class="header__hamburger" id="hamburger">
+          <div class="header__bar"></div>
+        </div>
       </div>
     </header>
 
@@ -211,16 +198,25 @@
           <div class="hero__cta">
             <ul class="hero__cta-links">
               <li class="hero__cta-btn btn">
-                <a class="hero__link" href="#">View projects</a>
+                <a class="hero__link" href="#projects">View projects</a>
               </li>
               <li class="hero__cta-btn btn">
-                <a class="hero__link" href="#">Let's work</a>
+                <a class="hero__link" href="#contact">Let's work</a>
               </li>
             </ul>
           </div>
         </div>
-        <div class="hero__image">Image</div>
-        <!-- <img class="hero__mypicture" src="#" alt="" /> -->
+        <div class="hero__image">
+          <img
+            class="hero__mypicture"
+            src="/public/images/hero/49132131787_84cfde1ebe_o.png"
+            alt="Picture of me slightly smiling used as Cover Photo"
+          />
+          <!--
+            width="400"
+            height="400" 
+          -->
+        </div>
       </div>
 
       <aside class="hero__mail">
@@ -241,36 +237,44 @@
           </div>
           <div class="background__details">
             <div class="background__info-container">
+              <hr class="background__info-line" />
+
               <p class="background__info">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Suscipit totam sunt nisi, nam placeat blanditiis velit officiis
-                dolorum sequi delectus perferendis. Magni velit omnis dicta
-                debitis quidem, ullam neque accusantium? Consequuntur cumque
-                commodi quam iusto facilis vitae fuga in, ut perferendis ad aut
-                aliquid fugiat tempora sint odit aperiam exercitationem
-                doloribus optio suscipit consectetur repellendus. Nostrum alias
-                obcaecati nam mollitia! Cupiditate quas dolorum debitis
-                temporibus nulla soluta beatae, cumque minima.
+                Hi there! I'm DK, a
+                <strong class="background__info-role"
+                  >Frontend / FullStack</strong
+                >
+                Web Developer. I build cool and interesting web application
+                projects that are scalable, responsive, and visually appealing,
+                and then bring them all to life on the Internet.
 
                 <br />
                 <br />
 
-                Doloremque ullam eos minima suscipit non! Nam velit voluptas
-                ratione blanditiis dolor officiis, ipsum voluptatum veritatis
-                beatae, nisi, aliquam quis? Possimus porro beatae veniam
-                aliquam, illo esse deleniti iusto iste incidunt numquam in dicta
-                illum cupiditate assumenda error non harum tempore amet ad
-                voluptatem enim! Temporibus quo molestias possimus amet. Vel
-                distinctio est doloribus provident consequatur. Minus quo nisi
-                consectetur illo. Tenetur blanditiis quidem cupiditate
-                consequatur rerum, quae labore, illum veritatis doloribus alias
-                sed sunt possimus enim animi? Minima, ipsum.
+                Once upon a time, my friends used to tease that I only 'Eat,
+                Sleep, Code, and Repeat.' But it's actually a compliment because
+                solving and building cool projects is not just a hobby but
+                rather a passion of mine.
               </p>
+              <hr class="background__info-line" />
             </div>
             <div class="background__photo">
-              <img src="#" alt="" />
-              <span>Fullstack</span>
+              <div class="background__photo-container">
+                <img
+                  class="background__photo-img"
+                  src="/public/images/about/about-usc-photo.jpg"
+                  width="400"
+                  height="400"
+                  alt="A picture of me slightly smiling"
+                />
+              </div>
+              <span class="background__photo-role">Fullstack Developer</span>
             </div>
+          </div>
+          <div class="background__quote" id="skills-offset-link">
+            <q>When in doubt, use a Hashmap.</q>
+            <br />
+            <cite>- Data Structures & Algorithms</cite>
           </div>
         </section>
 
@@ -282,12 +286,12 @@
           <div class="skills__container" id="skillsContainer"></div>
         </section>
 
-        <section class="projects">
+        <section class="projects" id="projects">
           <div class="projects__header header--util">
             <span class="header--title">My Projects</span>
             <div class="header--line"></div>
           </div>
-          <div class="projects__project-container" id="projects">
+          <div class="projects__project-container" id="projectsContainer">
             <div class="projects__project">
               <div class="projects__photo">
                 <img
@@ -329,8 +333,8 @@
               <div class="contact__cta">
                 <div class="contact__cta-container">
                   <p class="contact__cta-msg">
-                    Ready to connect or collaborate? Share your information, and
-                    I'll be in touch with you shortly.
+                    Looking to connect or collaborate? Share your information,
+                    and I'll be in touch with you shortly.
                   </p>
                 </div>
               </div>

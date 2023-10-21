@@ -25,7 +25,7 @@ const myProjects = [
   },
 ];
 
-const projectsContainer = document.getElementById("projects");
+const projectsContainer = document.getElementById("projectsContainer");
 
 myProjects.forEach((project, id) => {
   const projectDiv = document.createElement("div");
