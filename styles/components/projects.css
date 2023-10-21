@@ -76,6 +76,17 @@
   gap: var(--btn-gap);
 }
 
+.projects__live-demo, .projects__source-code {
+  cursor: pointer;
+}
+
+.projects__live-demo-link, .projects__source-code-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
 @media (min-width: 1200px) {
   .projects__project {
     flex-direction: row;

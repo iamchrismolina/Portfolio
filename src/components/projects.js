@@ -4,8 +4,8 @@ const myProjects = [
     imageUrl: "/public/images/tasksgenius/Todo List - Tasks.png",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium dolorem ea, perspiciatis ullam omnis sit pariatur ratione ducimus? Quaerat ea consequuntur hic neque. Nemo ducimus obcaecati unde ratione atque! Ad?",
-    liveDemoLink: "https://example.com/live-demo",
-    sourceCodeLink: "https://example.com/source-code",
+    liveDemoLink: "https://iamchrismolina.github.io/Todo-List/",
+    sourceCodeLink: "https://github.com/iamchrismolina/Todo-List",
   },
   {
     title: "Calculator",
@@ -17,6 +17,14 @@ const myProjects = [
   },
   {
     title: "Etch-a-sketch",
+    imageUrl: "/public/images/tasksgenius/Todo List - Tasks.png",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium dolorem ea, perspiciatis ullam omnis sit pariatur ratione ducimus? Quaerat ea consequuntur hic neque. Nemo ducimus obcaecati unde ratione atque! Ad?",
+    liveDemoLink: "https://example.com/live-demo",
+    sourceCodeLink: "https://example.com/source-code",
+  },
+  {
+    title: "Portfolio",
     imageUrl: "/public/images/tasksgenius/Todo List - Tasks.png",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium dolorem ea, perspiciatis ullam omnis sit pariatur ratione ducimus? Quaerat ea consequuntur hic neque. Nemo ducimus obcaecati unde ratione atque! Ad?",
@@ -66,19 +74,29 @@ myProjects.forEach((project, id) => {
   const btnsList = document.createElement("ul");
   btnsList.classList.add("projects__btns");
 
+  // Live Demo Button
   const liveDemoBtn = document.createElement("li");
+  liveDemoBtn.classList.add("projects__live-demo");
   liveDemoBtn.classList.add("btn");
-  liveDemoBtn.textContent = "Live Demo";
-  liveDemoBtn.addEventListener("click", () => {
-    window.location.href = project.liveDemoLink;
-  });
 
+  const liveDemoLink = document.createElement("a");
+  liveDemoLink.classList.add("projects__live-demo-link");
+  liveDemoLink.target = "_blank";
+  liveDemoLink.href = project.liveDemoLink;
+  liveDemoLink.textContent = "Live Demo";
+  liveDemoBtn.appendChild(liveDemoLink);
+
+  // Source Code Button
   const sourceCodeBtn = document.createElement("li");
+  sourceCodeBtn.classList.add("projects__source-code");
   sourceCodeBtn.classList.add("btn");
-  sourceCodeBtn.textContent = "Source Code";
-  sourceCodeBtn.addEventListener("click", () => {
-    window.location.href = project.sourceCodeLink;
-  });
+
+  const sourceCodeLink = document.createElement("a");
+  sourceCodeLink.classList.add("projects__source-code-link");
+  sourceCodeLink.target = "_blank";
+  sourceCodeLink.href = project.sourceCodeLink;
+  sourceCodeLink.textContent = "Source Code";
+  sourceCodeBtn.appendChild(sourceCodeLink);
 
   btnsList.appendChild(liveDemoBtn);
   btnsList.appendChild(sourceCodeBtn);
