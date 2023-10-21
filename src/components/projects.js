@@ -1,23 +1,23 @@
 const myProjects = [
   {
     title: "TaskGenius",
-    imageUrl: "/public/images/tasksgenius/Todo List - Tasks.png",
+    imageUrl: "/images/projects/todo-list.png",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium dolorem ea, perspiciatis ullam omnis sit pariatur ratione ducimus? Quaerat ea consequuntur hic neque. Nemo ducimus obcaecati unde ratione atque! Ad?",
     liveDemoLink: "https://iamchrismolina.github.io/Todo-List/",
     sourceCodeLink: "https://github.com/iamchrismolina/Todo-List",
   },
   {
-    title: "Calculator",
-    imageUrl: "/public/images/tasksgenius/Todo List - Tasks.png",
+    title: "Math Wizard",
+    imageUrl: "/images/projects/mathwizard.png",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium dolorem ea, perspiciatis ullam omnis sit pariatur ratione ducimus? Quaerat ea consequuntur hic neque. Nemo ducimus obcaecati unde ratione atque! Ad?",
-    liveDemoLink: "https://example.com/live-demo",
+    liveDemoLink: "https://iamchrismolina.github.io/Calculator/",
     sourceCodeLink: "https://github.com/iamchrismolina/Calculator",
   },
   {
     title: "Etch-a-sketch",
-    imageUrl: "/public/images/tasksgenius/Todo List - Tasks.png",
+    imageUrl: "/images/projects/etch-a-sketch.png",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium dolorem ea, perspiciatis ullam omnis sit pariatur ratione ducimus? Quaerat ea consequuntur hic neque. Nemo ducimus obcaecati unde ratione atque! Ad?",
     liveDemoLink: "https://iamchrismolina.github.io/etch-a-sketch/",
@@ -25,11 +25,11 @@ const myProjects = [
   },
   {
     title: "Portfolio",
-    imageUrl: "/public/images/tasksgenius/Todo List - Tasks.png",
+    imageUrl: "/images/projects/portfolio.png",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium dolorem ea, perspiciatis ullam omnis sit pariatur ratione ducimus? Quaerat ea consequuntur hic neque. Nemo ducimus obcaecati unde ratione atque! Ad?",
     liveDemoLink: "https://example.com/live-demo",
-    sourceCodeLink: "https://example.com/source-code",
+    sourceCodeLink: "https://github.com/iamchrismolina/Portfolio",
   },
 ];
 
@@ -76,11 +76,11 @@ myProjects.forEach((project, id) => {
 
   // Live Demo Button
   const liveDemoBtn = document.createElement("li");
-  liveDemoBtn.classList.add("projects__live-demo");
-  liveDemoBtn.classList.add("btn");
 
   const liveDemoLink = document.createElement("a");
+  liveDemoLink.classList.add("projects__live-demo");
   liveDemoLink.classList.add("projects__live-demo-link");
+  liveDemoLink.classList.add("btn");
   liveDemoLink.target = "_blank";
   liveDemoLink.href = project.liveDemoLink;
   liveDemoLink.textContent = "Live Demo";
@@ -88,11 +88,11 @@ myProjects.forEach((project, id) => {
 
   // Source Code Button
   const sourceCodeBtn = document.createElement("li");
-  sourceCodeBtn.classList.add("projects__source-code");
-  sourceCodeBtn.classList.add("btn");
 
   const sourceCodeLink = document.createElement("a");
+  sourceCodeLink.classList.add("projects__source-code");
   sourceCodeLink.classList.add("projects__source-code-link");
+  sourceCodeLink.classList.add("btn");
   sourceCodeLink.target = "_blank";
   sourceCodeLink.href = project.sourceCodeLink;
   sourceCodeLink.textContent = "Source Code";
