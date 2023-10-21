@@ -13,15 +13,15 @@ const myProjects = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium dolorem ea, perspiciatis ullam omnis sit pariatur ratione ducimus? Quaerat ea consequuntur hic neque. Nemo ducimus obcaecati unde ratione atque! Ad?",
     liveDemoLink: "https://example.com/live-demo",
-    sourceCodeLink: "https://example.com/source-code",
+    sourceCodeLink: "https://github.com/iamchrismolina/Calculator",
   },
   {
     title: "Etch-a-sketch",
     imageUrl: "/public/images/tasksgenius/Todo List - Tasks.png",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium dolorem ea, perspiciatis ullam omnis sit pariatur ratione ducimus? Quaerat ea consequuntur hic neque. Nemo ducimus obcaecati unde ratione atque! Ad?",
-    liveDemoLink: "https://example.com/live-demo",
-    sourceCodeLink: "https://example.com/source-code",
+    liveDemoLink: "https://iamchrismolina.github.io/etch-a-sketch/",
+    sourceCodeLink: "https://github.com/iamchrismolina/etch-a-sketch",
   },
   {
     title: "Portfolio",
