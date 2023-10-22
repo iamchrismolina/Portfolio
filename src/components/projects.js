@@ -19,7 +19,7 @@ const myProjects = [
     title: "Etch-a-sketch",
     imageUrl: "./images/projects/etchasketch.png",
     description:
-      "Developed with JavaScript, CSS, and HTML, which represents Etch-a-sketch model app",
+      "Developed with JavaScript, CSS, and HTML, which represents a Etch-a-sketch model app",
     liveDemoLink: "https://iamchrismolina.github.io/etch-a-sketch/",
     sourceCodeLink: "https://github.com/iamchrismolina/etch-a-sketch",
   },
@@ -27,7 +27,7 @@ const myProjects = [
     title: "Portfolio",
     imageUrl: "./images/projects/portfolio.png",
     description:
-      "Developed with JavaScript, CSS, and HTML, which serves as My Portfolio Website ",
+      "Developed with JavaScript, CSS, and HTML, which serves as my Portfolio Website ",
     liveDemoLink: "https://iamchrismolina.github.io/Portfolio/",
     sourceCodeLink: "https://github.com/iamchrismolina/Portfolio",
   }
