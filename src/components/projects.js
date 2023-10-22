@@ -28,7 +28,7 @@ const myProjects = [
     imageUrl: "/images/projects/portfolio.png",
     description:
       "My Portfolio Website is a creatively crafted page to showcase my professional journey, skills, and achievements. It serves as a place for potential employers, clients, and collaborators to gain insights into my expertise and experience.",
-    liveDemoLink: "https://example.com/live-demo",
+    liveDemoLink: "https://iamchrismolina.github.io/Portfolio/",
     sourceCodeLink: "https://github.com/iamchrismolina/Portfolio",
   },
 ];

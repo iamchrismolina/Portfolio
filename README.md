@@ -1,3 +1,5 @@
+![Portfolio Logo Showcased](/public/images/portfolio.png "DK Portfolio")
+
 # Portfolio Website
 
 ## A creatively crafted hub showcasing my professional journey, skills, and achievements.
