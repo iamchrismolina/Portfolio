@@ -1,7 +1,7 @@
 const myProjects = [
   {
     title: "TaskGenius",
-    imageUrl: "./public/images/projects/todo-list.png",
+    imageUrl: "/images/projects/todo-list.png",
     description:
       "A web application that helps users stay organized by managing their tasks and to-do lists. It provides a user-friendly interface for adding, removing and tracking history through report logs which makes it easy to prioritize and complete daily and long-term goals.",
     liveDemoLink: "https://iamchrismolina.github.io/Todo-List/",
@@ -9,7 +9,7 @@ const myProjects = [
   },
   {
     title: "Math Wizard",
-    imageUrl: "./public/images/projects/mathwizard.png",
+    imageUrl: "/Portfolio/public/images/projects/mathwizard.png",
     description:
       "A web application design to assist users with mathematical calculations. This user-friendly tool offers arithmetic operations, such as addition, subtraction, multiplication, division and as well as decimal calculations. Users can also easily input numbers and perform calculations, which makes it a handy tool for daily calculation/math tasks.",
     liveDemoLink: "https://iamchrismolina.github.io/Calculator/",
@@ -25,7 +25,15 @@ const myProjects = [
   },
   {
     title: "Portfolio",
-    imageUrl: "./public/images/projects/portfolio.png",
+    imageUrl: "./images/projects/portfolio.png",
+    description:
+      "My Portfolio Website is a creatively crafted page to showcase my professional journey, skills, and achievements. It serves as a place for potential employers, clients, and collaborators to gain insights into my expertise and experience.",
+    liveDemoLink: "https://iamchrismolina.github.io/Portfolio/",
+    sourceCodeLink: "https://github.com/iamchrismolina/Portfolio",
+  },
+  {
+    title: "Portfolio",
+    imageUrl: "/public/images/projects/portfolio.png",
     description:
       "My Portfolio Website is a creatively crafted page to showcase my professional journey, skills, and achievements. It serves as a place for potential employers, clients, and collaborators to gain insights into my expertise and experience.",
     liveDemoLink: "https://iamchrismolina.github.io/Portfolio/",
