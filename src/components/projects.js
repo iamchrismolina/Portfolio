@@ -1,7 +1,7 @@
 const myProjects = [
   {
     title: "TaskGenius",
-    imageUrl: "./images/projects/todo-list.png",
+    imageUrl: "./images/projects/todolist.png",
     description:
       "A web application that helps users stay organized by managing their tasks and to-do lists. It provides a user-friendly interface for adding, removing and tracking history through report logs which makes it easy to prioritize and complete daily and long-term goals.",
     liveDemoLink: "https://iamchrismolina.github.io/Todo-List/",
@@ -17,7 +17,7 @@ const myProjects = [
   },
   {
     title: "Etch-a-sketch",
-    imageUrl: "./images/projects/etch-a-sketch.png",
+    imageUrl: "./images/projects/etchasketch.png",
     description:
       "Inspired by the iconic Etch-a-Sketch item. This allows users to create and draw their own digital art by moving the cursor over the squares of the drawing area. This also provides a blank canvas where users can fill up with colors of the rainbow.",
     liveDemoLink: "https://iamchrismolina.github.io/etch-a-sketch/",
