@@ -14,3 +14,4 @@ export default defineConfig({
 export default {
     base: "/Portfolio/",
 }
+

@@ -3,7 +3,7 @@ const myProjects = [
     title: "TaskGenius",
     imageUrl: "./images/projects/todolist.png",
     description:
-      "Developed with TypeScript, React.js, and Sass/Scss, that reflects a Todo-list app",
+      "Developed with TypeScript, React.js, and Sass/Scss, that reflects a Todo-list app.",
     liveDemoLink: "https://iamchrismolina.github.io/Todo-List/",
     sourceCodeLink: "https://github.com/iamchrismolina/Todo-List",
   },
