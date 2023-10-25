@@ -3,7 +3,7 @@ const myProjects = [
     title: "TaskGenius",
     imageUrl: "./images/projects/todolist.png",
     description:
-      "Developed with TypeScript, React.js, and Sass/Scss, that reflects a Todo-list app",
+      "Developed with TypeScript, React.js, and Sass/Scss, that reflects a Todo-list app. A web application that helps users stay organized by managing their tasks and to-do lists. It provides a user-friendly interface for adding, removing and tracking history through report logs, which makes it easy to prioritize and complete daily and long-term goals",
     liveDemoLink: "https://iamchrismolina.github.io/Todo-List/",
     sourceCodeLink: "https://github.com/iamchrismolina/Todo-List",
   },
