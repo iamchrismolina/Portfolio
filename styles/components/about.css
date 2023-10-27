@@ -92,6 +92,20 @@
   /* font-size: var(--size-base); */
 }
 
+.background__cite {
+  /* border: 1px solid red; */
+  /* width: min-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 1rem; */
+}
+
+.background__cite-emoji {
+  margin-bottom: -0.5rem;
+  margin-left: 0.5rem;
+}
+
 @media (min-width: 320px) {
   .background__info-container {
     /* overflow-y: auto; */
