@@ -1,5 +1,13 @@
 const myProjects = [
   {
+    title: "DK Store (Ecommerce)",
+    imageUrl: "./images/projects/ecommerce.png",
+    description:
+      "Developed with TypeScript, React.js, Node.js, Prisma, TailwindCSS, and MongoDB as full production E-commerce app.",
+    liveDemoLink: "https://dksuperstore.vercel.app/",
+    sourceCodeLink: "https://github.com/iamchrismolina/E-commerce",
+  },
+  {
     title: "TaskGenius",
     imageUrl: "./images/projects/todolist.png",
     description:
