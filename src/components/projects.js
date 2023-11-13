@@ -14,14 +14,14 @@ const myProjects = [
       "Developed with TypeScript, React.js, and Sass/Scss, that reflects a Todo-list app.",
     liveDemoLink: "https://iamchrismolina.github.io/Todo-List/",
     sourceCodeLink: "https://github.com/iamchrismolina/Todo-List",
-  },
+  },  
   {
-    title: "Math Wizard",
-    imageUrl: "./images/projects/mathwizard.png",
+    title: "Portfolio",
+    imageUrl: "./images/projects/portfolio.png",
     description:
-      "Developed with JavaScript, CSS, and HTML, that constitutes a Calculator app",
-    liveDemoLink: "https://iamchrismolina.github.io/Calculator/",
-    sourceCodeLink: "https://github.com/iamchrismolina/Calculator",
+      "Developed with JavaScript, CSS, and HTML, which serves as my Portfolio Website ",
+    liveDemoLink: "https://iamchrismolina.github.io/Portfolio/",
+    sourceCodeLink: "https://github.com/iamchrismolina/Portfolio",
   },
   {
     title: "Etch-a-sketch",
@@ -31,13 +31,14 @@ const myProjects = [
     liveDemoLink: "https://iamchrismolina.github.io/etch-a-sketch/",
     sourceCodeLink: "https://github.com/iamchrismolina/etch-a-sketch",
   },
-  {
-    title: "Portfolio",
-    imageUrl: "./images/projects/portfolio.png",
+
+    {
+    title: "Math Wizard",
+    imageUrl: "./images/projects/mathwizard.png",
     description:
-      "Developed with JavaScript, CSS, and HTML, which serves as my Portfolio Website ",
-    liveDemoLink: "https://iamchrismolina.github.io/Portfolio/",
-    sourceCodeLink: "https://github.com/iamchrismolina/Portfolio",
+      "Developed with JavaScript, CSS, and HTML, that constitutes a Calculator app",
+    liveDemoLink: "https://iamchrismolina.github.io/Calculator/",
+    sourceCodeLink: "https://github.com/iamchrismolina/Calculator",
   }
 ];
 
