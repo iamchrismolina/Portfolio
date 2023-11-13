@@ -48,7 +48,7 @@
   width: 100%;
   font-size: clamp(2.5rem, 5vw, 5rem);
   padding: 0 clamp(1rem, 2vw, 3rem);
-  white-space: nowrap;
+/*   white-space: nowrap; */
 }
 
 .hero__header-container::before {
