@@ -3,7 +3,7 @@ const myProjects = [
     title: "DK Store (Ecommerce)",
     imageUrl: "./images/projects/ecommerce.png",
     description:
-      "Developed with TypeScript, React.js, Node.js, TailwindCSS, and MongoDB as full production E-commerce app.",
+      "Developed with TypeScript, React.js, Node.js, TailwindCSS, and MongoDB simulating full production E-commerce app.",
     liveDemoLink: "https://dksuperstore.vercel.app/",
     sourceCodeLink: "https://github.com/iamchrismolina/E-commerce",
   },
