@@ -13,6 +13,7 @@ svgIcons.forEach((svgIcon) => {
 
   const technologyContainer = document.createElement("span");
   technologyContainer.textContent = svgIcon.technology;
+  technologyContainer.classList.add("skills__text-container");
 
   skillCard.appendChild(imgContainer);
   skillCard.appendChild(technologyContainer);

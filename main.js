@@ -14,3 +14,4 @@ import "./styles/modern-normalize.css";
 import "./src/components/hamburger.js";
 import "./src/components/skills/skills.js";
 import "./src/components/projects.js";
+import "./src/app.js";
