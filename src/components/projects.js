@@ -65,6 +65,10 @@ const myProjects = [
         icon: "./icons/tech-stacks/node-cron.png",
         name: "Node-Cron",
       },
+      {
+        icon: "./icons/tech-stacks/cheerio.svg",
+        name: "Cheerio",
+      },
     ],
     description:
       "An API that delivers near real-time earthquake data from PHIVOLCS, used to keep communities informed and disaster-ready. It automatically scrapes and caches official PHIVOLCS earthquake data every few minutes, ensuring users always see near-live updates without overloading the source.",
