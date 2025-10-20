@@ -99,10 +99,6 @@ const myProjects = [
         name: "ShadcnUI",
       },
       {
-        icon: "./icons/tech-stacks/node-js.svg",
-        name: "Node.js",
-      },
-      {
         icon: "./icons/tech-stacks/zod.svg",
         name: "Zod",
       },
@@ -190,6 +186,10 @@ const myProjects = [
       {
         icon: "./icons/tech-stacks/laravel.svg",
         name: "Laravel",
+      },
+      {
+        icon: "./icons/tech-stacks/mysql.svg",
+        name: "MySQL",
       },
     ],
     description:
