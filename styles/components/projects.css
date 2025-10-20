@@ -13,7 +13,21 @@
   justify-content: space-around;
   height: 93%;
   padding: 5%;
-  gap: 1rem;
+  gap: 2rem;
+}
+
+.projects__left-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 8px;
+  gap: 8px;
+  cursor: default;
+}
+
+.projects__left-container:hover {
+  opacity: 90%;
 }
 
 .projects__photo {
@@ -21,13 +35,13 @@
   width: 100%;
   max-width: 32.5rem;
   height: 50%;
-  background-color: yellow;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 10px;
-  border: 1px solid var(--clr-slate400);
+  box-shadow: 0 10px 15px -3px var(--clr-indigo),
+    0 4px 6px -4px var(--clr-indigo);
   overflow: hidden;
+  cursor: pointer;
 }
 
 .projects__img {
@@ -35,6 +49,36 @@
   height: 100%;
   /* object-fit: contain; */
   /* object-fit: cover; */
+}
+
+.projects__tech-stacks {
+  background-color: transparent;
+  border-radius: 0 0 10px 10px;
+  height: fit-content;
+  display: none;
+  padding-inline: 16px;
+  overflow-x: auto;
+}
+
+.projects__tech-stacks__icon {
+  width: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  cursor: default;
+}
+
+.projects__tech-stacks__name {
+  font-size: 8px;
+  white-space: nowrap;
+}
+
+.projects__separator {
+  margin-top: 8px;
+  margin-bottom: 24px;
+  width: 100%;
 }
 
 .projects__info {
@@ -46,8 +90,18 @@
 }
 
 .projects__title {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 12px;
   font-size: 1.5rem;
+  font-weight: 500;
   color: var(--clr-slate800);
+  white-space: nowrap;
+}
+
+.projects_logo {
+  width: 32px;
+  height: 32px;
 }
 
 .projects__desc {
@@ -76,16 +130,54 @@
   gap: var(--btn-gap);
 }
 
-.projects__live-demo, .projects__source-code {
+.projects__live-demo,
+.projects__source-code {
   cursor: pointer;
 }
 
-.projects__live-demo-link, .projects__source-code-link {
+.projects__live-demo-link,
+.projects__source-code-link {
   text-decoration: none;
   color: inherit;
 }
 
+.projects__no-demo {
+  cursor: not-allowed;
+  opacity: 50%;
+}
 
+.projects__no-source-code {
+  cursor: not-allowed;
+  opacity: 50%;
+}
+
+@media (min-width: 768px) {
+  .projects__left-container {
+    gap: 32px;
+  }
+
+  .projects__project {
+    gap: 1rem;
+  }
+
+  .projects__left-container {
+    width: 80%;
+  }
+
+  .projects__tech-stacks {
+    gap: 24px;
+  }
+
+  .projects__separator {
+    display: none;
+  }
+
+  .projects__tech-stacks {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
 
 @media (min-width: 1200px) {
   .projects__project {

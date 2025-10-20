@@ -12,7 +12,7 @@
   --clr-slate600: #475569;
   --clr-slate800: #1e293b;
   --clr-rose: #e11d48;
-  --clr-indigo: #4f46e5;
+  --clr-indigo: hsl(243, 75%, 59%);
 
   /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-weight: 400; */
@@ -66,6 +66,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
+  position: relative;
   background-color: var(--clr-rose);
   outline: 1px solid var(--clr-rose);
 }

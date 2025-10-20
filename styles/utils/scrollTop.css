@@ -1,0 +1,31 @@
+.top {
+  --offset: 100px;
+
+  position: fixed;
+  bottom: 12px;
+  right: 12px;
+  margin-right: 4px;
+  place-self: end;
+  margin-top: calc(100vh + var(--offset));
+
+  width: 48px;
+  aspect-ratio: 1;
+  background: var(--clr-rose);
+  border-radius: 10px;
+  font-size: 0;
+}
+.top:before {
+  content: "";
+  position: absolute;
+  inset: 30%;
+  transform: translateY(20%) rotate(-45deg);
+  border-top: 5px solid #fff;
+  border-right: 5px solid #fff;
+}
+
+@media (min-width: 768px) {
+  .top {
+    bottom: 20px;
+    right: 20px;
+  }
+}

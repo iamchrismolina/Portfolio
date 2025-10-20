@@ -12,17 +12,32 @@
     <title>Chris Molina</title>
   </head>
   <body id="home">
+    <a href="#" class="top">Back to Top</a>
+
     <header class="header">
       <div class="header__brand">
-        <span class="header__logo">DK</span>
+        <span class="header__logo"
+          ><a class="header_link header__logo" href="#home">DK</a></span
+        >
         <!-- <img src="" alt="Portfolio Brand Logo" /> -->
       </div>
       <nav class="header__nav">
         <ul class="header__links">
-          <li><a class="header__link" href="#home">Home</a></li>
+          <li>
+            <a class="header__link header__link__home" href="#home">Home</a>
+          </li>
           <li><a class="header__link" href="#about-me">About</a></li>
-          <li><a class="header__link" href="#skills-offset-link">Skills</a></li>
-          <!-- <li><a class="header__link" href="#contact">Contact</a></li> -->
+          <li><a class="header__link" href="#skills">Skills</a></li>
+          <li>
+            <a class="header__link header__link__projects" href="#projects"
+              >Projects</a
+            >
+          </li>
+          <li>
+            <a class="header__link header__link__contact" href="#contact"
+              >Contact</a
+            >
+          </li>
         </ul>
       </nav>
       <div class="header__menu">
@@ -397,6 +412,13 @@
     <footer class="copyrights">
       <span class="copyrights__text" id="copyrights"></span>
     </footer>
+
+    <div id="myModal" class="modal">
+      <span class="close cursor" id="closeModal">&times;</span>
+
+      <div id="modalContent" class="modal-content"></div>
+    </div>
+
     <!-- <div id="app"></div> -->
     <script type="module" src="/main.js"></script>
   </body>
