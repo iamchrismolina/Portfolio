@@ -30,7 +30,7 @@ const myProjects = [
       },
     ],
     description:
-      "Developed with Svelte, Typescript, Node.js, TailwindCSS, with real data from PHIVOLCS.",
+      "Lindol.live is a real-time web application that visualizes recent Philippine earthquakes on an interactive map. Built with Svelte for faster performance, it delivers a smooth, map-driven experience that blends reliability, speed, and modern UI design.",
     liveDemoLink: "https://lindol-live.vercel.app/",
     sourceCodeLink: null,
   },
@@ -67,7 +67,7 @@ const myProjects = [
       },
     ],
     description:
-      "Developed with Node.js, Express, Axios, and Node-cron data scraped from web page.",
+      "An API that delivers near real-time earthquake data from PHIVOLCS, used to keep communities informed and disaster-ready. It automatically scrapes and caches official PHIVOLCS earthquake data every few minutes, ensuring users always see near-live updates without overloading the source.",
     liveDemoLink: "https://lindol-scraper-api.onrender.com/",
     sourceCodeLink: null,
   },
@@ -116,7 +116,7 @@ const myProjects = [
       },
     ],
     description:
-      "Developed with Next.js, ShadcnUI, Node.js, Zod, and supabase using map from leaflet.",
+      "BayanihanPH is a community-driven web application built to assist Filipinos during natural disasters like earthquakes. It enables users to find, add, and confirm safe shelters in real time, fostering a culture of bayanihan (community cooperation). The platform integrates geolocation, interactive mapping (Leaflet), and multilingual support (English, Cebuano, Tagalog) to make it accessible and relevant nationwide.",
     liveDemoLink: "https://bayanihanph.vercel.app/ceb-PH",
     sourceCodeLink: null,
   },
@@ -189,7 +189,7 @@ const myProjects = [
       },
     ],
     description:
-      "Developed with Next.js, ShadcnUI, Node.js, Zod, and supabase using map from leaflet.",
+      "Healthflow is a web-based platform that connects patients, providers, and administrators to streamline medication tracking and refills. It allows patients to manage prescriptions and communicate with providers, while providers monitor adherence and approve refills. Administrators oversee user management, medicine inventory, and overall system operations to ensure efficient and coordinated healthcare delivery.",
     liveDemoLink: null,
     sourceCodeLink: null,
   },

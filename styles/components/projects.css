@@ -217,6 +217,10 @@
   .projects__btns-container {
     flex: 1;
   }
+
+  .projects__img {
+    min-width: 32rem;
+  }
 }
 
 @media (min-width: 1400px) {
