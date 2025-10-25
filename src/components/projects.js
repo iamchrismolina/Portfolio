@@ -121,7 +121,7 @@ const myProjects = [
     sourceCodeLink: null,
   },
   {
-    title: "HealthFlow",
+    title: "HealthFlow (client)",
     logoUrl: "./icons/health-flow.svg",
     imageUrl: "./images/projects/health-flow-2.png",
     slides: [
