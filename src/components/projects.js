@@ -118,7 +118,7 @@ const myProjects = [
     description:
       "BayanihanPH is a community-driven web application built to assist Filipinos during natural disasters like earthquakes. It enables users to find, add, and confirm safe shelters in real time, fostering a culture of bayanihan (community cooperation). The platform integrates geolocation, interactive mapping (Leaflet), and multilingual support (English, Cebuano, Tagalog) to make it accessible and relevant nationwide.",
     liveDemoLink: "https://bayanihanph.vercel.app/ceb-PH",
-    sourceCodeLink: null,
+    sourceCodeLink: "https://github.com/iamchrismolina/bayanihanph",
   },
   {
     title: "HealthFlow (client)",
